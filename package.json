@@ -4,7 +4,6 @@
   "description": "compile tailwind like shorthand syntax into css at runtime",
   "module": "index.js",
   "main": "index.js",
-  "type": "module",
   "types": "index.d.ts",
   "scripts": {
     "start": "servor --browse --reload --editor",
