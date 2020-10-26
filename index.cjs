@@ -111,6 +111,9 @@ var translate_default = (theme2) => (str) => {
         case "border":
           out["border-width"] = theme2.borderWidth["default"];
           break;
+        case "shadow":
+          out["box-shadow"] = theme2.boxShadow["default"];
+          break;
       }
       break;
     case 2:
